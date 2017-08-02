@@ -12,7 +12,7 @@
 		C433DAD71F26E3910086C6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C433DAD61F26E3910086C6B7 /* Assets.xcassets */; };
 		C433DADA1F26E3910086C6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C433DAD81F26E3910086C6B7 /* LaunchScreen.storyboard */; };
 		C433DAE21F26E5300086C6B7 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433DAE11F26E5300086C6B7 /* EmojiTableViewController.swift */; };
-		C4CDAC171F32037E00C08758 /* EmojiDefinitioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDAC161F32037E00C08758 /* EmojiDefinitioViewController.swift */; };
+		C4CDAC191F32074B00C08758 /* EmojiDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDAC181F32074B00C08758 /* EmojiDefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		C433DAD91F26E3910086C6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C433DADB1F26E3910086C6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C433DAE11F26E5300086C6B7 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
-		C4CDAC161F32037E00C08758 /* EmojiDefinitioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDefinitioViewController.swift; sourceTree = "<group>"; };
+		C4CDAC181F32074B00C08758 /* EmojiDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 				C433DACF1F26E3910086C6B7 /* AppDelegate.swift */,
 				C433DAD31F26E3910086C6B7 /* Main.storyboard */,
 				C433DAE11F26E5300086C6B7 /* EmojiTableViewController.swift */,
+				C4CDAC181F32074B00C08758 /* EmojiDefinitionViewController.swift */,
 				C433DAD61F26E3910086C6B7 /* Assets.xcassets */,
 				C433DAD81F26E3910086C6B7 /* LaunchScreen.storyboard */,
-				C4CDAC161F32037E00C08758 /* EmojiDefinitioViewController.swift */,
 				C433DADB1F26E3910086C6B7 /* Info.plist */,
 			);
 			path = "Emoji Dic";
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CDAC171F32037E00C08758 /* EmojiDefinitioViewController.swift in Sources */,
 				C433DAE21F26E5300086C6B7 /* EmojiTableViewController.swift in Sources */,
+				C4CDAC191F32074B00C08758 /* EmojiDefinitionViewController.swift in Sources */,
 				C433DAD01F26E3910086C6B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
